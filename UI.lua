@@ -1,7 +1,7 @@
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
-getgenv().le = getgenv().le or loadstring(game:HttpGet('https://raw.githubusercontent.com/AAPVdev/scripts/refs/heads/main/LimbExtender.lua'))()
+getgenv().le = getgenv().le or loadstring(game:HttpGet('https://raw.githubusercontent.com/zedcuh/T/refs/heads/main/limbextender.lua'))()
 local LimbExtender = getgenv().le
 
 local le = LimbExtender({
